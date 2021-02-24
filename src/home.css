@@ -1,0 +1,114 @@
+#x2
+  {
+    font: 30px "Droid Serif",serif;
+    font-style: italic;
+    margin:0px 0px;
+    padding: 40px 15px;
+    background-color:#fed136;
+    color:white;
+  }
+   /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  #x3
+  {
+    font: 30px "Droid Serif",serif;
+    font-style: italic;
+    margin-top:20px;
+    padding: 40px 15px;
+    
+    color:rgb(161, 158, 125);
+  }
+
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f3f5fa;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+  }
+  
+  .section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+    font: 25px;
+    font-style: italic;
+ padding: 15px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  #col2{
+      height: 200px;
+      background-color:azure;
+  }
+
+  #col3{
+    height: 200px;
+    background-color:beige;
+  }
+
+  /* Create two equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
